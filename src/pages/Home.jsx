@@ -5,13 +5,9 @@ const Home = ({ categories, onSelectCategory }) => {
     const images = {
       'Ice Cream': '/categories/ice-cream.jpg',
       'Sundaes': '/categories/sundae.jpg',
-      'Thick Shakes': '/categories/thick-shake.jpg',
-      'Milk Shakes': '/categories/milk-shake.jpg',
+      'Shakes': '/categories/thick-shake.jpg',
       'Lassi': '/categories/lassi.jpg',
-      'Falooda': '/categories/falooda.jpg',
       'Shrikhand': '/categories/shrikhand.jpg',
-      'Liquid Sweet': '/categories/liquid-sweet.jpeg',
-      'Kulfi': '/categories/kulfi.jpeg'
     };
     return images[cat] || '/categories/default.jpg';
   };
@@ -21,11 +17,11 @@ const Home = ({ categories, onSelectCategory }) => {
       {/* Hero */}
       <div className="relative bg-linear-to-br from-amber-800 via-amber-700 to-stone-800 rounded-b-3xl shadow-2xl overflow-hidden">
         <div className="relative px-6 py-12 text-center">
-          <div className="w-32 h-32 mx-auto mb-4 bg-white rounded-full flex items-center justify-center shadow-2xl p-2">
-            <img src="/shop_icon.jpg" alt="Logo" className="w-full h-full object-contain" />
+          <div className="flex justify-center items-center mb-4">
+            <img src="/shop_icon.png" alt="Logo" className="w-32 h-32 object-contain" />
           </div>
-          <h1 className="text-3xl font-bold text-amber-50">Shree Satyanarayan</h1>
-          <p className="text-amber-200 mt-2 text-sm">Premium Desserts & Treats</p>
+          <h1 className="text-3xl font-[--font-poppins] font-semibold text-amber-50">Satyanarayan</h1>
+          <p className="mt-2 text-sm text-amber-200 font-(--font-montserrat)">Ice cream & Shakes</p>
         </div>
       </div>
 

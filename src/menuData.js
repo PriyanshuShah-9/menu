@@ -1,233 +1,206 @@
 const menuData = {
   "Ice Cream": [
     {
-      name: "Roasted Dryfruit",
-      variants: [{ quantity: "100ml", price: 60 }, { quantity: "500ml", price: 300 },{ quantity: "1L", price: 600 }]
+      name: "Lotus Biscoff",
+      variants: [{ quantity: "120ml", price: 80 },{ quantity: "600ml", price: 400 },{ quantity: "1200ml", price: 800 }]
     },
     {
       name: "Belgian Chocolate",
-      variants: [{ quantity: "100ml", price: 60 }, { quantity: "500ml", price: 300 },{ quantity: "1L", price: 600 }]
-    },
-    {
-      name: "Almond Masti",
-      variants: [{ quantity: "100ml", price: 60 }, { quantity: "500ml", price: 300 },{ quantity: "1L", price: 600 }]
-    },
-    {
-      name: "Taj Mahal",
-      variants: [{ quantity: "100ml", price: 60 }, { quantity: "500ml", price: 300 },{ quantity: "1L", price: 600 }]
-    },
-    {
-      name: "Kesar Masti",
-      variants: [{ quantity: "100ml", price: 60 }, { quantity: "500ml", price: 300 },{ quantity: "1L", price: 600 }]
-    },
-    {
-      name: "K.B.P",
-      variants: [{ quantity: "100ml", price: 60 }, { quantity: "500ml", price: 300 },{ quantity: "1L", price: 600 }]
-    },
-    {
-      name: "Rajbhog",
-      variants: [{ quantity: "100ml", price: 60 }, { quantity: "500ml", price: 300 },{ quantity: "1L", price: 600 }]
-    },
-    {
-      name: "Traffic Jam",
-      variants: [{ quantity: "100ml", price: 60 }, { quantity: "500ml", price: 300 },{ quantity: "1L", price: 600 }]
-    },
-    {
-      name: "Mava Malti",
-      variants: [{ quantity: "100ml", price: 60 }, { quantity: "500ml", price: 300 },{ quantity: "1L", price: 600 }]
-    },
-    {
-      name: "Kesar Pista",
-      variants: [{ quantity: "100ml", price: 60 }, { quantity: "500ml", price: 300 },{ quantity: "1L", price: 600 }]
-    },
-    {
-      name: "Dryfruit Khazana",
-      variants: [{ quantity: "100ml", price: 60 }, { quantity: "500ml", price: 300 },{ quantity: "1L", price: 600 }]
+      variants: [{ quantity: "120ml", price: 80 },{ quantity: "600ml", price: 400 },{ quantity: "1200ml", price: 800 }]
     },
     {
       name: "Mexican Khazana",
-      variants: [{ quantity: "100ml", price: 60 }, { quantity: "500ml", price: 300 },{ quantity: "1L", price: 600 }]
+      variants: [{ quantity: "120ml", price: 70 },{ quantity: "600ml", price: 350 },{ quantity: "1200ml", price: 700 }]
     },
     {
-      name: "Almond Carnival",
-      variants: [{ quantity: "100ml", price: 60 }, { quantity: "500ml", price: 300 },{ quantity: "1L", price: 600 }]
+      name: "Mava Malti",
+      variants: [{ quantity: "120ml", price: 70 },{ quantity: "600ml", price: 350 },{ quantity: "1200ml", price: 700 }]
     },
     {
-      name: "Chocolate Chips",
-      variants: [{ quantity: "100ml", price: 60 }, { quantity: "500ml", price: 300 },{ quantity: "1L", price: 600 }]
-    },
-    {
-      name: "Anjeer Kaju",
-      variants: [{ quantity: "100ml", price: 50 }, { quantity: "500ml", price: 250 },{ quantity: "1L", price: 500 }]
+      name: "Roasted Dryfruit",
+      variants: [{ quantity: "120ml", price: 70 },{ quantity: "600ml", price: 350 },{ quantity: "1200ml", price: 700 }]
     },
     {
       name: "African Dryfruit",
-      variants: [{ quantity: "100ml", price: 50 }, { quantity: "500ml", price: 250 },{ quantity: "1L", price: 500 }]
+      variants: [{ quantity: "120ml", price: 70 },{ quantity: "600ml", price: 350 },{ quantity: "1200ml", price: 700 }]
     },
     {
-      name: "American Dryfruit",
-      variants: [{ quantity: "100ml", price: 50 }, { quantity: "500ml", price: 250 },{ quantity: "1L", price: 500 }]
+      name: "Blue Diamond",
+      variants: [{ quantity: "120ml", price: 70 },{ quantity: "600ml", price: 350 },{ quantity: "1200ml", price: 700 }]
+    },
+    {
+      name: "Traffic Jam",
+      variants: [{ quantity: "120ml", price: 70 },{ quantity: "600ml", price: 350 },{ quantity: "1200ml", price: 700 }]
+    },
+    {
+      name: "Kesar Pista",
+      variants: [{ quantity: "120ml", price: 70 },{ quantity: "600ml", price: 350 },{ quantity: "1200ml", price: 700 }]
+    },
+    {
+      name: "Chocolate Chips",
+      variants: [{ quantity: "120ml", price: 70 },{ quantity: "600ml", price: 350 },{ quantity: "1200ml", price: 700 }]
+    },
+    {
+      name: "Coffee Bliss",
+      variants: [{ quantity: "120ml", price: 70 },{ quantity: "600ml", price: 350 },{ quantity: "1200ml", price: 700 }]
+    },
+    {
+      name: "Dryfruit Khazana",
+      variants: [{ quantity: "120ml", price: 70 },{ quantity: "600ml", price: 350 },{ quantity: "1200ml", price: 700 }]
+    },
+    {
+      name: "Kesar Masti",
+      variants: [{ quantity: "120ml", price: 70 },{ quantity: "600ml", price: 350 },{ quantity: "1200ml", price: 700 }]
     },
     {
       name: "Sp. Anmol Ratan",
-      variants: [{ quantity: "100ml", price: 50 }, { quantity: "500ml", price: 250 },{ quantity: "1L", price: 500 }]
+      variants: [{ quantity: "120ml", price: 60 },{ quantity: "600ml", price: 300 },{ quantity: "1200ml", price: 600 }]
     },
     {
-      name: "Cookies Cream",
-      variants: [{ quantity: "100ml", price: 50 }, { quantity: "500ml", price: 250 },{ quantity: "1L", price: 500 }]
+      name: "American Dryfruit",
+      variants: [{ quantity: "120ml", price: 60 },{ quantity: "600ml", price: 300 },{ quantity: "1200ml", price: 600 }]
     },
     {
-      name: "Cookies Monster",
-      variants: [{ quantity: "100ml", price: 50 }, { quantity: "500ml", price: 250 },{ quantity: "1L", price: 500 }]
+      name: "Anjeer",
+      variants: [{ quantity: "120ml", price: 60 },{ quantity: "600ml", price: 300 },{ quantity: "1200ml", price: 600 }]
     },
     {
       name: "Mava Cadbury",
-      variants: [{ quantity: "100ml", price: 50 }, { quantity: "500ml", price: 250 },{ quantity: "1L", price: 500 }]
+      variants: [{ quantity: "120ml", price: 60 },{ quantity: "600ml", price: 300 },{ quantity: "1200ml", price: 600 }]
     },
     {
-      name: "Pan Bahar",
-      variants: [{ quantity: "100ml", price: 50 }, { quantity: "500ml", price: 250 },{ quantity: "1L", price: 500 }]
+      name: "Cookies Cream",
+      variants: [{ quantity: "120ml", price: 60 },{ quantity: "600ml", price: 300 },{ quantity: "1200ml", price: 600 }]
     },
     {
-      name: "Sweet Heart",
-      variants: [{ quantity: "100ml", price: 40 }, { quantity: "500ml", price: 200 },{ quantity: "1L", price: 400 }]
+      name: "Calcutti Pan",
+      variants: [{ quantity: "120ml", price: 60 },{ quantity: "600ml", price: 300 },{ quantity: "1200ml", price: 600 }]
+    },
+    {
+      name: "Kaju Kismis",
+      variants: [{ quantity: "120ml", price: 50 },{ quantity: "600ml", price: 250 },{ quantity: "1200ml", price: 500 }]
     },
     {
       name: "Malai Badam",
-      variants: [{ quantity: "100ml", price: 40 }, { quantity: "500ml", price: 200 },{ quantity: "1L", price: 400 }]
+      variants: [{ quantity: "120ml", price: 50 },{ quantity: "600ml", price: 250 },{ quantity: "1200ml", price: 500 }]
     },
     {
-      name: "Kaju Draksh",
-      variants: [{ quantity: "100ml", price: 40 }, { quantity: "500ml", price: 200 },{ quantity: "1L", price: 400 }]
+      name: "Sweet Heart",
+      variants: [{ quantity: "120ml", price: 50 },{ quantity: "600ml", price: 250 },{ quantity: "1200ml", price: 500 }]
     },
     {
-      name: "Butter Scoatch",
-      variants: [{ quantity: "100ml", price: 40 }, { quantity: "500ml", price: 200 },{ quantity: "1L", price: 400 }]
-    },
-    {
-      name: "Paina Orange",
-      variants: [{ quantity: "100ml", price: 30 }, { quantity: "500ml", price: 150 },{ quantity: "1L", price: 300 }]
+      name: "Butter Scotch",
+      variants: [{ quantity: "120ml", price: 50 },{ quantity: "600ml", price: 250 },{ quantity: "1200ml", price: 500 }]
     },
     {
       name: "Strawberry",
-      variants: [{ quantity: "100ml", price: 30 }, { quantity: "500ml", price: 150 },{ quantity: "1L", price: 300 }]
+      variants: [{ quantity: "120ml", price: 40 },{ quantity: "600ml", price: 200 },{ quantity: "1200ml", price: 400 }]
     },
     {
-      name: "Mango",
-      variants: [{ quantity: "100ml", price: 30 }, { quantity: "500ml", price: 150 },{ quantity: "1L", price: 300 }]
+      name: "Paina Orange",
+      variants: [{ quantity: "120ml", price: 40 },{ quantity: "600ml", price: 200 },{ quantity: "1200ml", price: 400 }]
     },
     {
-      name: "MilkCake",
-      variants: [{ quantity: "100ml", price: 30 }, { quantity: "500ml", price: 150 },{ quantity: "1L", price: 300 }]
+      name: "Milk Cake",
+      variants: [{ quantity: "120ml", price: 40 },{ quantity: "600ml", price: 200 },{ quantity: "1200ml", price: 400 }],
     },
     {
       name: "Vanilla",
-      variants: [{ quantity: "100ml", price: 25 }, { quantity: "500ml", price: 125 }, { quantity: "1L", price: 250 }]
-    }
+      variants: [{ quantity: "120ml", price: 30 },{ quantity: "600ml", price: 150 },{ quantity: "1200ml", price: 300 }]
+    },
   ],
+
   Sundaes: [
-    { name: "Bucket Sundae (400ml)", price: 300 },
-    { name: "Chcolate Chart (350ml)", price: 240 },
-    { name: "Triple Sundae (250ml)", price: 180 },
-    { name: "Sangam Sundae (250ml)", price: 180 },
-    { name: "Choco Safari (250ml)", price: 180 },
-    { name: "Choco Blast (250ml)", price: 180 },
-    { name: "Double Sundae (200ml)", price: 150 },
-    { name: "Traffic Sundae (200ml)", price: 150 },
-    { name: "Cookies Monster Sundae (200ml)", price: 150 },
-    { name: "Heart Attack (200ml)", price: 150 },
-    { name: "Hot Brownie with Ice cream (200ml)", price: 150 },
-    { name: "Single Sundae (150ml)", price: 120 },
-    { name: "Cookies Sundae (150ml)", price: 120 },
-    { name: "Choco Sundae (150ml)", price: 120 },
-    { name: "American Sundae (150ml)", price: 120 },
-    { name: "Satyanarayan Special (150ml)", price: 120 },
-    { name: "Choco Dip (120ml)", price: 100 },
-    { name: "Mango Dip (120ml)", price: 100 },
-    { name: "Choco Strawberry (120ml)", price: 100 },
-    { name: "Vanilla with Jelly (120ml)", price: 50 },
-    { name: "Vanilla Topping (120ml)", price: 50 },
+    { name: "Triple Sundae (230ml)", price: 220 },
+    { name: "Choco Madness (230ml)", price: 220 },
+    { name: "Fudge Coffee (230ml)", price: 220 },
+    { name: "Oreo Mocha Tower (230ml)", price: 220 },
+
+    { name: "Double Sundae (180ml)", price: 160 },
+    { name: "Traffic Sundae (180ml)", price: 160 },
+
+    { name: "Sizzling Brownie (200ml)", price: 180 },
+
+    { name: "Hot Brownie with Chocolate (200ml)", price: 170 },
+    { name: "Hot Brownie with Oreo (200ml)", price: 170 },
+    { name: "Hot Brownie with Vanilla (200ml)", price: 150 },
+
+    { name: "Satyanarayan Special (150ml)", price: 140 },
+    { name: "American Sundae (150ml)", price: 140 },
+    { name: "Choco Sundae (150ml)", price: 140 },
+    { name: "Oreo Sundae (150ml)", price: 140 },
+    { name: "Dryfruit Sundae (150ml)", price: 140 },
+    { name: "Biscoff Sundae (150ml)", price: 140 },
+    { name: "Choco Dip (150ml)", price: 140 },
+    { name: "Strawberry Choco (150ml)", price: 140 },
+    { name: "Mango Dip (150ml)", price: 140 },
+
+    { name: "Chocolate Topping (130ml)", price: 80 },
+    { name: "Strawberry Topping (130ml)", price: 60 },
+    { name: "Vanilla Topping (130ml)", price: 50 },
+    { name: "Vanilla with Jelly (130ml)", price: 50 },
   ],
-  "Thick Shakes": [
-    { name: "Dairy Milk Silk (250ml)", price: 200 },
-    { name: "Belgian Chocolate (250ml)", price: 200 },
-    { name: "Nutty Nutella (250ml)", price: 200 },
-    { name: "Ferrero Rocher Nutella (250ml)", price: 200 },
-    { name: "Caramel Nuts (250ml)", price: 160 },
-    { name: "Almond Coffee (250ml)", price: 160 },
-    { name: "Kesar Kaju Badam (250ml)", price: 160 },
-    { name: "Roasted Almond (250ml)", price: 160 },
-    { name: "Chocolate Fruite and Nuts (250ml)", price: 160 },
-    { name: "Choco Brownie (250ml)", price: 160 },
-    { name: "Almond Special (250ml)", price: 160 },
-    { name: "Almond Anjeer (250ml)", price: 160 },
-    { name: "Anjeer Special (250ml)", price: 140 },
-    { name: "Kaju Anjeer (250ml)", price: 140 },
-    { name: "Kaju Special (250ml)", price: 140 },
-    { name: "Kaju Kesar (250ml)", price: 140 },
-    { name: "Kaju Mango (250ml)", price: 140 },
-    { name: "Kaju Gulkand (250ml)", price: 140 },
-    { name: "Kiwi (250ml)", price: 130 },
-    { name: "BlueBerry (250ml)", price: 130 },
-    { name: "Oreo Chips (250ml)", price: 130 },
-    { name: "Butter Scoatch (250ml)", price: 130 },
-    { name: "Caramel Coffee (250ml)", price: 130 },
-    { name: "Chocolate Coffee (250ml)", price: 130 },
-    { name: "Cadbury Gems (250ml)", price: 130 },
-    { name: "Brownie (250ml)", price: 130 },
-    { name: "KitKat (250ml)", price: 130 },
-    { name: "Oreo Blast (250ml)", price: 130 },
+
+  Shakes: [
+    { name: "Ferrero Rocher Nutella", price: 250 },
+    { name: "Almond Nutella", price: 250 },
+    { name: "Brownella", price: 250 },
+    { name: "Belgian Chocolate", price: 250 },
+    { name: "Dairy Milk Silk", price: 250 },
+    { name: "Roasted Dryfruit", price: 250 },
+
+    { name: "Kaju Special", price: 190 },
+    { name: "Kaju Anjeer", price: 190 },
+    { name: "Kaju Mango", price: 190 },
+    { name: "Kaju Mava", price: 190 },
+    { name: "Kaju Kesar", price: 190 },
+    { name: "Lotus Biscoff", price: 190 },
+    { name: "Choco Brownie", price: 190 },
+
+    { name: "Anjeer Special", price: 170 },
+    { name: "Cadbury Gems", price: 170 },
+    { name: "KitKat", price: 170 },
+    { name: "Oreo Blast", price: 170 },
+    { name: "Butter Scotch Crunch", price: 170 },
+    { name: "Caramel Coffee", price: 170 },
+    { name: "Chocolate Coffee", price: 170 },
+    { name: "Dark Fantasy", price: 170 },
+    { name: "M&M", price: 170 },
+
+    { name: "Cold Coffee", price: 150 },
+    { name: "Fresh Chikoo", price: 150 },
+    { name: "Blueberry", price: 150 },
+    { name: "Mango", price: 150 },
+    { name: "Strawberry", price: 150 },
+    { name: "Pineapple", price: 150 },
+    { name: "Black Current", price: 150 },
+    { name: "Vanilla", price: 150 },
+
+    { name: "Cold Cocoa Special", price: 150 },
+    { name: "Cold Cocoa with Brownie", price: 140 },
+    { name: "Cold Cocoa with Ice Cream", price: 120 },
+    { name: "Cold Cocoa with Chips", price: 100 },
+    { name: "Cold Cocoa", price: 80 },
+
+    { name: "Badam Shake with Ice Cream", price: 120 },
+    { name: "Badam Shake", price: 80 },
   ],
-  "Milk Shakes": [
-    { name: "Kesariya Thandai (250ml)", price: 90 },
-    { name: "Mango (250ml)", price: 90 },
-    { name: "Strawberry (250ml)", price: 90 },
-    { name: "Pineapple (250ml)", price: 90 },
-    { name: "Black Current (250ml)", price: 90 },
-    { name: "Oreo (250ml)", price: 90 },
-    { name: "Chocoltate (250ml)", price: 90 },
-    { name: "Cold Coffee (250ml)", price: 90 },
-    { name: "Mava Gulkand (250ml)", price: 90 },
-    { name: "Rose (250ml)", price: 80 },
-    { name: "Vanila (250ml)", price: 80 },
-    { name: "Mava Malai (250ml)", price: 80 },
-    { name: "Fresh Chickoo (250ml)", price: 80 },
-    { name: "Cold Cocoa (250ml)", price: 60 },
-    { name: "Cold Cocoa Special (250ml)", price: 140 },
-    { name: "Cold Cocoa w Brownie (250ml)", price: 120 },
-    { name: "Cold Cocoa w Chips (250ml)", price: 90 },
-    { name: "Cold Cocoa w Ice cream (250ml)", price: 90 },
-    { name: "Cold Cocoa w Kaju (250ml)", price: 90 },
-    { name: "Badam Shake (250ml)", price: 60 },
-    { name: "Badam Shake w Ice Cream (250ml)", price: 80 },
-    { name: "Fruit Salad (250ml)", price: 50 },
-    { name: "Fruit Salad w Ice cream (250ml)", price: 80 },
-  ],
-  "Lassi": [
-    { name: "Kit Kat (250ml)", price: 90 },
-    { name: "Dryfruit (250ml)", price: 90 },
-    { name: "Rajwadi (250ml)", price: 90 },
-    { name: "Ganga-Jamuna (250ml)", price: 90 },
-    { name: "Kaju (250ml)", price: 70 },
-    { name: "Badam (250ml)", price: 70 },
-    { name: "Lassi w Ice cream (250ml)", price: 50 },
-    { name: "Mango Lassi (250ml)", price: 50 },
-    { name: "Strawberry Lassi (250ml)", price: 50 },
-    { name: "Chocolate Lassi (250ml)", price: 50 },
-    { name: "Pineapple Lassi (250ml)", price: 50 },
-    { name: "Sweet Lassi (250ml)", price: 40 },
-  ],
-  "Falooda": [
-    { name: "Chocolate (250ml)", price: 90 },
-    { name: "Kesar Pista (250ml)", price: 90 },
-    { name: "Rajwadi (250ml)", price: 90 },
-    { name: "Gulab (250ml)", price: 80 },
-    {name: "Mango (250ml)", price: 80 },
-    {name: "Green Pista (250ml)", price: 80 },
-    {name: "Strawberry (250ml)", price: 80 },
-    {name: "Pineapple (250ml)", price: 80 },
+
+  Lassi: [
+    { name: "Rajwadi (300ml)", price: 120 },
+    { name: "Dryfruit (300ml)", price: 120 },
+    { name: "Kaju (300ml)", price: 90 },
+    { name: "Chocolate (300ml)", price: 70 },
+    { name: "Strawberry (300ml)", price: 70 },
+    { name: "Pineapple (300ml)", price: 70 },
+    { name: "Mango (300ml)", price: 70 },
+    { name: "Sweet (300ml)", price: 50 },
   ],
    "Shrikhand": [
+    {
+      name: "American Dryfruit",
+      variants: [{ quantity: "250gm", price: 70 }, { quantity: "500gm", price: 130 },{ quantity: "1kg", price: 260 }]
+    },
     {
       name: "Rajbhog",
       variants: [{ quantity: "250gm", price: 80 }, { quantity: "500gm", price: 150 },{ quantity: "1kg", price: 300 }]
@@ -245,22 +218,15 @@ const menuData = {
       variants: [{ quantity: "100gm", price: 40 },]
     }
   ],
-  "Liquid Sweet": [
-    {
-      name: "Mango Dryfruit Cream",
-      variants: [{ quantity: "100ml", price: 50 }, { quantity: "500ml", price: 200 },{ quantity: "1L", price: 400 }]
-    },
-    {
-      name: "Sitafal Cream",
-      variants: [{ quantity: "100ml", price: 50 }, { quantity: "500ml", price: 200 },{ quantity: "1L", price: 400 }]
-    }
-  ],
-  "Kulfi": [
-    { name: "Dryfruit (100ml)", price: 30 },
-    { name: "Kesar Mava (100ml)", price: 25 },
-    { name: "Chocolate (100ml)", price: 25 },
-    { name: "Mava (100ml)", price: 20 },
-  ],
+
+  "Extra Toppings": [
+  { name: "Brownie", price: 30 },
+  { name: "Biscoff Crunch", price: 30 },
+  { name: "Chips", price: 20 },
+  { name: "Jelly", price: 20 },
+  { name: "Whipped Cream", price: 20 },
+  { name: "Oreo Crunch", price: 20 },
+],
 };
 
 export default menuData;
