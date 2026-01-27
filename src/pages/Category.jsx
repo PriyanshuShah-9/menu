@@ -3,7 +3,7 @@ import { ChevronLeft } from "lucide-react";
 
 const Category = ({ selectedCategory, menuData, onBack }) => {
 
-  // EXACT SAME LOGIC from App.jsx
+  //SAME LOGIC from App.jsx
   const groupItemsByPrice = (items) => {
     const grouped = {};
 

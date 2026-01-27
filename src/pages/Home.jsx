@@ -3,11 +3,12 @@ import React from "react";
 const Home = ({ categories, onSelectCategory }) => {
   const getCategoryImage = (cat) => {
     const images = {
-      'Ice Cream': '/categories/ice-cream.jpg',
-      'Sundaes': '/categories/sundae.jpg',
-      'Shakes': '/categories/thick-shake.jpg',
-      'Lassi': '/categories/lassi.jpg',
-      'Shrikhand': '/categories/shrikhand.jpg',
+      'Ice Cream': '/categories/ice-cream.png',
+      'Sundaes': '/categories/sundae.png',
+      'Shakes': '/categories/shake.png',
+      'Lassi': '/categories/lassi.png',
+      'Shrikhand': '/categories/shrikhand.png',
+      'Extra Toppings': '/categories/topping.png'
     };
     return images[cat] || '/categories/default.jpg';
   };
@@ -37,8 +38,8 @@ const Home = ({ categories, onSelectCategory }) => {
               onClick={() => onSelectCategory(category)}
               className="bg-white rounded-2xl p-4 shadow-md hover:shadow-xl transition-all"
             >
-              <div className="w-16 h-16 mx-auto mb-3 rounded-full overflow-hidden">
-                <img src={getCategoryImage(category)} alt={category} />
+              <div className="w-16 h-16 mx-auto mb-3 rounded-full overflow-hidden flex items-center justify-center">
+                <img src={getCategoryImage(category)} alt={category} className="w-10 h-10 object-contain" />
               </div>
               <p className="font-semibold text-sm">{category}</p>
             </button>
