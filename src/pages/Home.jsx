@@ -15,10 +15,10 @@ const Home = ({ categories, onSelectCategory }) => {
   };
 
   return (
-    <div className="max-w-md mx-auto pb-8">
+    <div className="max-w-md mx-auto pb-8 bg-amber-50 min-h-screen">
 
       {/* Hero */}
-      <div className="relative bg-gradient-to-br from-pink-200 via-pink-300 to-rose-300 rounded-b-3xl shadow-2xl shadow-pink-200 overflow-hidden">
+      <div className="relative bg-gradient-to-br from-amber-100 via-amber-200 to-yellow-100 rounded-b-3xl shadow-md overflow-hidden">
 
         <div className="relative px-6 py-12 text-center">
 
@@ -30,10 +30,9 @@ const Home = ({ categories, onSelectCategory }) => {
             />
           </div>
 
-          <h1 className="text-3xl font-semibold text-black">
+          <h1 className="text-3xl font-semibold text-black font-[Playfair_Display]">
             Satyanarayan
           </h1>
-
           <p className="mt-2 text-sm text-gray-700">
             Ice cream & Shakes
           </p>
@@ -45,7 +44,7 @@ const Home = ({ categories, onSelectCategory }) => {
       {/* Categories */}
       <div className="px-4 mt-8">
 
-        <h3 className="text-lg font-semibold text-pink-700 mb-4 px-2">
+        <h3 className="text-lg font-semibold text-amber-900 mb-4 px-2">
           Explore Our Menu
         </h3>
 
@@ -55,7 +54,7 @@ const Home = ({ categories, onSelectCategory }) => {
             <button
               key={category}
               onClick={() => onSelectCategory(category)}
-              className="bg-white rounded-2xl p-4 shadow-md hover:shadow-xl hover:bg-pink-50 hover:scale-105 transition-all duration-200"
+              className="bg-white rounded-2xl p-4 shadow-sm hover:shadow-md hover:bg-amber-50 hover:scale-105 transition-all duration-200"
             >
 
               <div className="w-16 h-16 mx-auto mb-3 rounded-full overflow-hidden flex items-center justify-center">
@@ -68,7 +67,7 @@ const Home = ({ categories, onSelectCategory }) => {
 
               </div>
 
-              <p className="font-semibold text-sm text-gray-700">
+              <p className="font-semibold text-sm text-gray-800">
                 {category}
               </p>
 

@@ -2,11 +2,11 @@ const menuData = {
   "Ice Cream": [
     {
       name: "Lotus Biscoff",
-      variants: [{ quantity: "120ml", price: 80 },{ quantity: "600ml", price: 400 },{ quantity: "1200ml", price: 800 }]
+      variants: [{ quantity: "120ml", price: 70 },{ quantity: "600ml", price: 350 },{ quantity: "1200ml", price: 700 }]
     },
     {
       name: "Belgian Chocolate",
-      variants: [{ quantity: "120ml", price: 80 },{ quantity: "600ml", price: 400 },{ quantity: "1200ml", price: 800 }]
+      variants: [{ quantity: "120ml", price: 70 },{ quantity: "600ml", price: 350 },{ quantity: "1200ml", price: 700 }]
     },
     {
       name: "Mexican Khazana",
@@ -99,7 +99,7 @@ const menuData = {
     { name: "Double Sundae (180ml)", price: 160 },
     { name: "Traffic Sundae (180ml)", price: 160 },
 
-    { name: "Biscoff Brownie Overload (200ml)", price: 180 },
+    { name: "Biscoff Brownie Overload (200ml)", price: 190 },
     { name: "Sizzling Brownie (200ml)", price: 180 },
 
     { name: "Hot Brownie with Chocolate (200ml)", price: 170 },
@@ -138,8 +138,10 @@ const menuData = {
     { name: "Kaju Mawa (300ml)", price: 190 },
     { name: "Kaju Kesar (300ml)", price: 190 },
     { name: "Kaju Gulkand (300ml)", price: 190 },
+    { name: "Kaju Mango (300ml)", price: 190 },
     { name: "Lotus Biscoff (300ml)", price: 190 },
     { name: "Choco Brownie (300ml)", price: 190 },
+    { name: "Mocha Brownie (300ml)", price: 190 },
 
     { name: "Anjeer Special (300ml)", price: 160 },
     { name: "Cadbury Gems (300ml)", price: 160 },

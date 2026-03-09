@@ -46,10 +46,10 @@ const Category = ({ selectedCategory, menuData, onBack }) => {
   };
 
   return (
-    <div className="max-w-md mx-auto pb-8">
+    <div className="max-w-md mx-auto pb-8 bg-amber-50 min-h-screen">
 
       {/* Header */}
-      <div className="sticky top-0 z-10 bg-gradient-to-r from-pink-200 via-pink-300 to-rose-300 rounded-b-3xl shadow-2xl shadow-pink-200">
+      <div className="sticky top-0 z-10 bg-gradient-to-r from-amber-100 via-amber-200 to-yellow-100 rounded-b-3xl shadow-md">
         <div className="px-4 py-6">
 
           <button
@@ -60,7 +60,7 @@ const Category = ({ selectedCategory, menuData, onBack }) => {
             Back
           </button>
 
-          <h2 className="text-2xl font-bold text-black">
+          <h2 className="text-2xl font-bold text-amber-900">
             {selectedCategory}
           </h2>
 
@@ -69,10 +69,10 @@ const Category = ({ selectedCategory, menuData, onBack }) => {
 
       {/* Menu Table */}
       <div className="px-4 mt-6">
-        <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition-shadow overflow-hidden border-2 border-pink-200">
+        <div className="bg-white rounded-2xl shadow-sm hover:shadow-md transition-shadow overflow-hidden border border-amber-200">
 
           {/* Table Header */}
-          <div className="bg-gradient-to-r from-pink-300 to-rose-300 px-4 py-3">
+          <div className="bg-gradient-to-r from-amber-100 to-yellow-100 px-4 py-3">
             <div className="grid grid-cols-4 gap-2 text-black font-semibold text-sm">
               <div className="col-span-1">Item Name</div>
 
@@ -97,10 +97,10 @@ const Category = ({ selectedCategory, menuData, onBack }) => {
                   {group.items.map((item, index) => (
                     <div
                       key={index}
-                      className="grid grid-cols-4 gap-2 px-4 py-3 border-b border-pink-100 hover:bg-pink-50 transition-colors"
+                      className="grid grid-cols-4 gap-2 px-4 py-3 border-b border-amber-100 hover:bg-amber-50 transition-colors"
                     >
 
-                      <div className="col-span-1 font-medium text-gray-700 text-sm flex items-center">
+                      <div className="col-span-1 font-medium text-gray-800 text-sm flex items-center">
                         {item.name}
                       </div>
 
@@ -108,13 +108,13 @@ const Category = ({ selectedCategory, menuData, onBack }) => {
                         item.variants.map((variant, vIndex) => (
                           <div
                             key={vIndex}
-                            className="text-center font-semibold text-rose-600 text-sm flex items-center justify-center"
+                            className="text-center font-semibold text-amber-900 text-sm flex items-center justify-center"
                           >
                             ₹{variant.price}
                           </div>
                         ))
                       ) : (
-                        <div className="col-span-3 text-center font-semibold text-rose-600 text-sm flex items-center justify-center">
+                        <div className="col-span-3 text-center font-semibold text-amber-900 text-sm flex items-center justify-center">
                           ₹{item.price}
                         </div>
                       )}
@@ -124,7 +124,7 @@ const Category = ({ selectedCategory, menuData, onBack }) => {
 
                   {groupIndex <
                     groupItemsByPrice(menuData[selectedCategory]).length - 1 && (
-                    <div className="border-b-4 border-pink-300"></div>
+                    <div className="border-b-2 border-amber-200"></div>
                   )}
 
                 </div>
