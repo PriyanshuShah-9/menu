@@ -3,7 +3,6 @@ import { ChevronLeft } from "lucide-react";
 
 const Category = ({ selectedCategory, menuData, onBack }) => {
 
-  //SAME LOGIC from App.jsx
   const groupItemsByPrice = (items) => {
     const grouped = {};
 
@@ -11,7 +10,7 @@ const Category = ({ selectedCategory, menuData, onBack }) => {
       if (item.variants) {
         const variantKey = item.variants
           .map(v => `${v.quantity}-${v.price}`)
-          .join('|');
+          .join("|");
 
         const avgPrice =
           item.variants.reduce((sum, v) => sum + v.price, 0) /
@@ -48,29 +47,33 @@ const Category = ({ selectedCategory, menuData, onBack }) => {
 
   return (
     <div className="max-w-md mx-auto pb-8">
+
       {/* Header */}
-      <div className="sticky top-0 z-10 bg-linear-to-r from-amber-800 to-amber-700 rounded-b-3xl shadow-2xl">
+      <div className="sticky top-0 z-10 bg-gradient-to-r from-pink-200 via-pink-300 to-rose-300 rounded-b-3xl shadow-2xl shadow-pink-200">
         <div className="px-4 py-6">
+
           <button
             onClick={onBack}
-            className="flex items-center text-amber-50 mb-4 hover:bg-white/20 rounded-lg px-3 py-2"
+            className="flex items-center text-black mb-4 hover:bg-white/40 rounded-lg px-3 py-2 transition"
           >
             <ChevronLeft className="w-5 h-5 mr-1" />
             Back
           </button>
-          <h2 className="text-2xl font-bold text-amber-50">
+
+          <h2 className="text-2xl font-bold text-black">
             {selectedCategory}
           </h2>
+
         </div>
       </div>
 
       {/* Menu Table */}
       <div className="px-4 mt-6">
-        <div className="bg-white rounded-2xl shadow-lg overflow-hidden border-2 border-amber-300">
+        <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition-shadow overflow-hidden border-2 border-pink-200">
 
           {/* Table Header */}
-          <div className="bg-linear-to-r from-amber-700 to-amber-600 px-4 py-3">
-            <div className="grid grid-cols-4 gap-2 text-amber-50 font-semibold text-sm">
+          <div className="bg-gradient-to-r from-pink-300 to-rose-300 px-4 py-3">
+            <div className="grid grid-cols-4 gap-2 text-black font-semibold text-sm">
               <div className="col-span-1">Item Name</div>
 
               {menuData[selectedCategory][0]?.variants ? (
@@ -82,6 +85,7 @@ const Category = ({ selectedCategory, menuData, onBack }) => {
               ) : (
                 <div className="col-span-3 text-center">Price</div>
               )}
+
             </div>
           </div>
 
@@ -93,42 +97,44 @@ const Category = ({ selectedCategory, menuData, onBack }) => {
                   {group.items.map((item, index) => (
                     <div
                       key={index}
-                      className="grid grid-cols-4 gap-2 px-4 py-3 border-b border-amber-200 hover:bg-amber-50"
+                      className="grid grid-cols-4 gap-2 px-4 py-3 border-b border-pink-100 hover:bg-pink-50 transition-colors"
                     >
-                      <div className="col-span-1 font-medium text-stone-800 text-sm flex items-center">
+
+                      <div className="col-span-1 font-medium text-gray-700 text-sm flex items-center">
                         {item.name}
                       </div>
 
-                      {/* With Variants */}
                       {item.variants ? (
                         item.variants.map((variant, vIndex) => (
                           <div
                             key={vIndex}
-                            className="text-center font-semibold text-amber-800 text-sm flex items-center justify-center"
+                            className="text-center font-semibold text-rose-600 text-sm flex items-center justify-center"
                           >
                             ₹{variant.price}
                           </div>
                         ))
                       ) : (
-                        /* Without Variants */
-                        <div className="col-span-3 text-center font-semibold text-amber-800 text-sm flex items-center justify-center">
+                        <div className="col-span-3 text-center font-semibold text-rose-600 text-sm flex items-center justify-center">
                           ₹{item.price}
                         </div>
                       )}
+
                     </div>
                   ))}
 
-                  {/* Thick divider between price groups */}
                   {groupIndex <
                     groupItemsByPrice(menuData[selectedCategory]).length - 1 && (
-                    <div className="border-b-4 border-amber-400"></div>
+                    <div className="border-b-4 border-pink-300"></div>
                   )}
+
                 </div>
               )
             )}
           </div>
+
         </div>
       </div>
+
     </div>
   );
 };
